@@ -1,0 +1,4 @@
+Bundle-Activator: net.luminis.websitewatcher.servlet.Activator
+Private-Package: net.luminis.websitewatcher.servlet
+Bundle-Version: 1.0.0
+Include-Resource: resources/servlet

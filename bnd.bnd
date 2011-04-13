@@ -1,0 +1,17 @@
+-runbundles: osgi.cmpn,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	org.apache.felix.shell,\
+	org.apache.felix.shell.tui,\
+	org.apache.felix.configadmin,\
+	org.apache.felix.fileinstall,\
+	org.apache.felix.http.whiteboard,\
+	org.apache.felix.http.jetty,\
+	org.apache.felix.webconsole,\
+	org.apache.felix.metatype
+-buildpath: osgi.cmpn,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	org.apache.felix.http.jetty
+-runfw: org.apache.felix.framework
+-sub: *.bnd

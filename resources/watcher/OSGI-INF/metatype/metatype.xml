@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData>
+    <OCD name="Website watcher" id="net.luminis.websitewatcher.factory">
+    	<AD name="website" id="url" type="STRING" cardinality="0" />
+    </OCD>
+    <Designate pid="net.luminis.websitewatcher.factory" factoryPid="net.luminis.websitewatcher.factory">
+        <Object ocdref="net.luminis.websitewatcher.factory"/>
+    </Designate>
+</MetaData>

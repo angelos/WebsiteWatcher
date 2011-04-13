@@ -1,0 +1,6 @@
+Bundle-Activator: net.luminis.websitewatcher.watcher.Activator
+Private-Package: net.luminis.websitewatcher.watcher,\
+	net.luminis.websitewatcher.managedservice
+Bundle-Version: 1.0.0
+Export-Package: net.luminis.websitewatcher
+Include-Resource: resources/watcher
